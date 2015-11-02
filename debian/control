@@ -1,0 +1,12 @@
+Source: ros-indigo-atlas-v3-moveit-config
+Section: misc
+Priority: extra
+Maintainer: MoveIt Setup Assistant <assistant@moveit.ros.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-atlas-moveit-config, ros-indigo-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-atlas-v3-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-atlas-moveit-config, ros-indigo-moveit-ros-move-group, ros-indigo-xacro
+Description: An automatically generated package with all the configuration and launch files for using the atlas with the MoveIt Motion Planning Framework
