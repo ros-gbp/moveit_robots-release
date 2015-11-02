@@ -1,0 +1,12 @@
+Source: ros-indigo-baxter-moveit-config
+Section: misc
+Priority: extra
+Maintainer: MoveIt Setup Assistant <assistant@moveit.ros.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-baxter-description, ros-indigo-catkin
+Homepage: http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial
+Standards-Version: 3.9.2
+
+Package: ros-indigo-baxter-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-baxter-description, ros-indigo-moveit-ros-move-group, ros-indigo-moveit-simple-controller-manager
+Description: An automatically generated package with all the configuration and launch files for using the baxter with the MoveIt Motion Planning Framework
