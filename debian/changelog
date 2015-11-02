@@ -1,0 +1,15 @@
+ros-indigo-moveit-robots (1.0.3-0saucy) saucy; urgency=high
+
+  * [fix] Manually move ikfast.h from include/ to include/baxter_ikfast_{left/right}_arm_plugin/include
+  * Contributors: Kei Okada
+
+ -- Sachin Chitta <robot.moveit@gmail.com>  Mon, 02 Nov 2015 08:00:00 -0000
+
+ros-indigo-moveit-robots (1.0.1-0saucy) saucy; urgency=high
+
+  * Initial binary DEB release
+  * Contributors: Isaac IY Saito
+
+ -- Sachin Chitta <robot.moveit@gmail.com>  Sat, 19 Sep 2015 07:00:00 -0000
+
+
