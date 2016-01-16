@@ -1,14 +1,13 @@
-Baxter MoveIt!
-==========
-Author: Rethink Robotics Inc.
+moveit_robots
+=============
 
-Website: https://github.com/RethinkRobotics/sdk-examples
+This repository contains configuration packages for different robots using MoveIt!
 
-MoveIt! configuration package for the Baxter Research Robot from Rethink Robotics.
-
-PACKAGE DEPENDENCIES
+Guidelines
 ---------
-To use the baxter_moveit_config package you will need the baxter_description package containing Baxter's URDF. This package is available for download at the following repository:
 
-   git clone https://github.com/RethinkRobotics/baxter_common.git
+Add your robot's MoveIt configuration package to the root of this repository. 
 
+Name the package YOURROBOT_moveit_config... for example 'pr2_moveit_config'
+
+Add a README.md file inside your robot's config package that explains where and how to get your robot's URDF file - i.e. where to download the corresponding YOURROBOT_description package that contains your robot's URDF file.
