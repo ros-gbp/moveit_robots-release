@@ -1,0 +1,12 @@
+Source: ros-indigo-moveit-robots
+Section: misc
+Priority: extra
+Maintainer: Sachin Chitta <robot.moveit@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/moveit_robots
+Standards-Version: 3.9.2
+
+Package: ros-indigo-moveit-robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-atlas-moveit-config, ros-indigo-atlas-v3-moveit-config, ros-indigo-baxter-ikfast-left-arm-plugin, ros-indigo-baxter-ikfast-right-arm-plugin, ros-indigo-baxter-moveit-config, ros-indigo-clam-moveit-config, ros-indigo-r2-moveit-generated
+Description: moveit_robots meta-package contains multiple robots moveit configuration packages.
