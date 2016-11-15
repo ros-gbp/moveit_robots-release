@@ -1,15 +1,19 @@
-moveit_robots
+IRI_WAM robot
 =============
+* Author: Sergi Foix 
+* Institution: Institut de Robotica i Informatica Industrial (CSIC-UPC) in Barcelona 
+* Website: [http://wiki.iri.upc.edu/index.php/Wam_arm](http://wiki.iri.upc.edu/index.php/Wam_arm)
 
-This repository contains configuration packages for different robots using MoveIt!
+This repository contains configuration packages for the WAM arm robot using MoveIt!
 
-[![Build Status](https://travis-ci.org/ros-planning/moveit_robots.svg?branch=master)](https://travis-ci.org/ros-planning/moveit_robots)
-
-Guidelines
+PACKAGE DEPENDENCIES
 ---------
+To use the iri_wam_moveit_config package you need the iri_wam_description package that contains the robot's URDF.
+You can download the package directly from our public repository using the following command:
 
-Add your robot's MoveIt configuration package to the root of this repository.
+ - svn co https://devel.iri.upc.edu/pub/labrobotica/ros/iri-ros-pkg/stacks/iri_wam/trunk/iri_wam_description/
 
-Name the package YOURROBOT_moveit_config... for example 'pr2_moveit_config'
+More info at:
 
-Add a README.md file inside your robot's config package that explains where and how to get your robot's URDF file - i.e. where to download the corresponding YOURROBOT_description package that contains your robot's URDF file.
+[http://wiki.iri.upc.edu/index.php/ROS_WAM](http://wiki.iri.upc.edu/index.php/ROS_WAM)
+
