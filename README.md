@@ -1,3 +1,35 @@
+## moveit_robots (indigo) - 1.0.7-0
+
+The packages in the `moveit_robots` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo moveit_robots --edit` on `Tue, 15 Nov 2016 21:41:31 -0000`
+
+These packages were released:
+- `atlas_moveit_config`
+- `atlas_v3_moveit_config`
+- `baxter_ikfast_left_arm_plugin`
+- `baxter_ikfast_right_arm_plugin`
+- `baxter_moveit_config`
+- `clam_moveit_config`
+- `iri_wam_moveit_config`
+- `moveit_robots`
+- `r2_moveit_generated`
+
+Version of package(s) in repository `moveit_robots`:
+
+- upstream repository: https://github.com/ros-planning/moveit_robots.git
+- release repository: https://github.com/tork-a/moveit_robots-release.git
+- rosdistro version: `1.0.6-0`
+- old version: `1.0.6-0`
+- new version: `1.0.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## moveit_robots (indigo) - 1.0.6-0
 
 The packages in the `moveit_robots` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo moveit_robots` on `Tue, 19 Apr 2016 23:59:21 -0000`
