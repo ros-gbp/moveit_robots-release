@@ -1,15 +1,24 @@
-moveit_robots
-=============
+ClamArm Manipulator
+==========
+* Author: Dave Coleman <davetcoleman.com>
+* Website: [correll.cs.colorado.edu/clam](http://correll.cs.colorado.edu/clam)
+* License: GNU General Public License, version 3 (GPL-3.0)
+* Inception Date: 12/27/2011
+* Version: 2.0.0
 
-This repository contains configuration packages for different robots using MoveIt!
+MoveIt configuration package for the 7-dof robotic arm in the Correll Lab at the University of Colorado Boulder. 
 
-[![Build Status](https://travis-ci.org/ros-planning/moveit_robots.svg?branch=master)](https://travis-ci.org/ros-planning/moveit_robots)
 
-Guidelines
+PACKAGE DEPENDENCIES
+---------
+To use the clam_moveit_config package you need the clam_description package that contains the robot's URDF. To download that package use the following repo:
+
+   git clone git@github.com:davetcoleman/clam_catkin.git
+
+
+DOCUMENTATION
 ---------
 
-Add your robot's MoveIt configuration package to the root of this repository.
+See [Documentation](http://correll.cs.colorado.edu/clam/?page_id=28)
 
-Name the package YOURROBOT_moveit_config... for example 'pr2_moveit_config'
 
-Add a README.md file inside your robot's config package that explains where and how to get your robot's URDF file - i.e. where to download the corresponding YOURROBOT_description package that contains your robot's URDF file.
